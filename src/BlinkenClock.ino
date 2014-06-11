@@ -3,7 +3,7 @@
   ------------
   A Wall-Clock based on an Arduino and RGB-LED Stripe.
   
-  Inspired by Björn Knorr (http://netaddict.de/blinkenlights:blinkenclock)
+  Inspired by Bjoern Knorr (http://netaddict.de/blinkenlights:blinkenclock)
   
   Required Arduino Libraries
   --------------------------
@@ -52,14 +52,14 @@ DS1307 rtc; //RTC connected via I2C (SDA+SCL)
 
 typedef struct 
 {
-	uint8_t r;
+  uint8_t r;
   uint8_t g;
   uint8_t b;
 } COLOR;
 
 typedef struct 
 {
-	uint8_t magic; //0xAA
+  uint8_t magic; //0xAA
   uint8_t clock_mode;
   COLOR hour;
   COLOR minute;
