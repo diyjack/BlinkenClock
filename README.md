@@ -1,6 +1,6 @@
 # BlinkenClock
 A Wall-Clock based on an Arduino and RGB-LED Stripe.
-Inspired by Bjoern Knorr (http://netaddict.de/blinkenlights:blinkenclock).
+Inspired by [Bjoern Knorr](http://netaddict.de/blinkenlights:blinkenclock).
 
 
 ## Features
